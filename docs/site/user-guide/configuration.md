@@ -228,6 +228,6 @@ AMIO validates the manifest on `amio_init`. Invalid configurations return
 
 Complete example manifests are provided in `examples/manifests/`:
 
-- [`netcdf4_manifest.yaml`](https://github.com/NOAA-EMC/AMIO/blob/main/examples/manifests/netcdf4_manifest.yaml)
-- [`zarr3_manifest.yaml`](https://github.com/NOAA-EMC/AMIO/blob/main/examples/manifests/zarr3_manifest.yaml)
-- [`grib2_manifest.yaml`](https://github.com/NOAA-EMC/AMIO/blob/main/examples/manifests/grib2_manifest.yaml)
+- [`netcdf4_manifest.yaml`](https://github.com/NOAA-EMC/AMIO/blob/develop/examples/manifests/netcdf4_manifest.yaml)
+- [`zarr3_manifest.yaml`](https://github.com/NOAA-EMC/AMIO/blob/develop/examples/manifests/zarr3_manifest.yaml)
+- [`grib2_manifest.yaml`](https://github.com/NOAA-EMC/AMIO/blob/develop/examples/manifests/grib2_manifest.yaml)

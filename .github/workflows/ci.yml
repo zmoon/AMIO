@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [main, develop]
+    branches: [develop]
   pull_request:
-    branches: [main]
+    branches: [develop]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -49,10 +49,10 @@ jobs:
             && ctest --output-on-failure -L unit --timeout 120 \
             && RC_PARAMS='max_success=20' ctest --output-on-failure -L pbt --timeout 300"
 
-  # Build the Docker image and push to GHCR (only on main)
+  # Build the Docker image and push to GHCR (only on develop)
   docker:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/develop'
     permissions:
       packages: write
     steps:

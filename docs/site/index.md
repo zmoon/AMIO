@@ -106,4 +106,4 @@ make docs    # Generate full documentation site
 
 ## License
 
-See the [LICENSE](https://github.com/NOAA-EMC/AMIO/blob/main/LICENSE) file in the project root.
+See the [LICENSE](https://github.com/NOAA-EMC/AMIO/blob/develop/LICENSE) file in the project root.
